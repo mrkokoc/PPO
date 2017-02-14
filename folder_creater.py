@@ -1,6 +1,6 @@
 import os
 
-root_path = '/Users/Eli/Documents/dev/python/umms/workdata/outbound'
+root_path = '/home/umms/workdata/outbound'
 
 folders = [
     '1RdReportBl',
