@@ -1,6 +1,8 @@
 import os
 
-directories = [
+root_path = '/Users/Eli/Documents/dev/python/umms/workdata/outbound'
+
+folders = [
     '1RdReportBl',
     '1RdReportRpr',
     '1RdReportRvr',
@@ -44,5 +46,5 @@ directories = [
     'statistics'
 ]
 
-if not os.path.exists(directories):
-    os.makedirs(directories)
+for folder in folders:
+    os.mkdir(os.path.join(root_path, folder))
