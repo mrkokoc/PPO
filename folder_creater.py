@@ -1,7 +1,7 @@
-#!/usr/bin/python3
+#!/usr/bin/env python
 import os
 
-root_path = '/home/umms/workdata/outbound'
+root_path = os.getcwd()
 
 folders = [
     '1RdReportBl',
